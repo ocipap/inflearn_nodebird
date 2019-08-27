@@ -12,7 +12,7 @@
   },
   "extends": [
     "eslint:recommended",
-    "eslint:react/recommended"
+    "plugin:react/recommended"
   ],
   "plugins": [
     "import",
