@@ -21,5 +21,7 @@ module.exports = {
     "import",
     "react-hooks"
   ],
-  "rules": {}
+  "rules": {
+    "react/prop-types": 0
+  }
 };

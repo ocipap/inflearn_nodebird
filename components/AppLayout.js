@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types'
 import { Menu, Input } from 'antd';
 
 const AppLayout = ({ children }) => (
@@ -14,9 +13,5 @@ const AppLayout = ({ children }) => (
     {children}
   </div>
 );
-
-AppLayout.propTypes = {
-  children: PropTypes.element
-};
 
 export default AppLayout;
